@@ -1,11 +1,12 @@
 import { useState } from "react";
+
 export function NewItem() {
   const [form, setForm] = useState({
     title: "",
     desc: "",
     author: "",
   });
-  const handleChange = (e: any) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setForm({
       ...form,
       [e.target.name]: e.target.value,
