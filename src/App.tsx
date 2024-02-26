@@ -1,5 +1,4 @@
-import { useState } from "react";
-import { NewItem } from "./components/NewItem";
+import { NewItem } from "./components/NewItem.tsx";
 export function App() {
   return (
     <>
