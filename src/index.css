@@ -1,5 +1,34 @@
 form {
-  width: 200px;
-  display: flex;
   flex-direction: column;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.toDoItems {
+  background-color: darkgreen;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.toDoCard {
+  box-sizing: border-box;
+  width: 30vw;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.toDoCard h2 {
+  font-size: 1.3rem;
+  padding: 0;
+  margin: 0;
+}
+.toDoCard p {
+  font-size: 1rem;
+  padding: 0;
+  margin: 0.3rem;
+}
+.toDoCard :last-child {
+  font-style: italic;
 }
