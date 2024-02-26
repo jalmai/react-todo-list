@@ -1,102 +1,104 @@
-[
-  {
-    "title": "Create Dank Memes",
-    "desc": "Generate hilarious memes to boost social media engagement.",
-    "author": "Pepe"
-  },
-  {
-    "title": "Stock Up on Doge Coins",
-    "desc": "Invest in Doge coins for potential moon landing.",
-    "author": "Doge"
-  },
-  {
-    "title": "Mock Clients with Grumpy Replies",
-    "desc": "Respond to clients with grumpy cat memes for fun.",
-    "author": "Grumpy Cat"
-  },
-  {
-    "title": "Imagination SpongeBob Slides",
-    "desc": "Craft presentation slides with Imagination SpongeBob theme.",
-    "author": "SpongeBob"
-  },
-  {
-    "title": "Kermit Reviews Contracts",
-    "desc": "Kermit the Frog scrutinizes contracts with a cup of tea.",
-    "author": "Kermit the Frog"
-  },
-  {
-    "title": "Arthur Fist Team Building",
-    "desc": "Use Arthur Fist meme to inspire team building activities.",
-    "author": "Arthur Fist"
-  },
-  {
-    "title": "Woman Yelling Market Trends",
-    "desc": "Create graphs with Woman Yelling at a Cat meme for market trends.",
-    "author": "Woman Yelling at a Cat"
-  },
-  {
-    "title": "Hide the Pain Website Bugs",
-    "desc": "Mask website bugs with Hide the Pain Harold's smiling face.",
-    "author": "Hide the Pain Harold"
-  },
-  {
-    "title": "Stonks Flight Tickets",
-    "desc": "Buy flight tickets for business trips with Stonks Guy's approval.",
-    "author": "Stonks Guy"
-  },
-  {
-    "title": "Baby Yoda Lunch Plans",
-    "desc": "Baby Yoda suggests adorable lunch plans for the team.",
-    "author": "Baby Yoda"
-  },
-  {
-    "title": "Mocking SpongeBob Social Media",
-    "desc": "Respond to social media comments with Mocking SpongeBob sarcasm.",
-    "author": "Mocking SpongeBob"
-  },
-  {
-    "title": "This is Fine Monthly Report",
-    "desc": "Write monthly reports with 'This is Fine' dog amidst chaos.",
-    "author": "This is Fine Dog"
-  },
-  {
-    "title": "Surprised Pikachu Webinar",
-    "desc": "Attend webinars with a look of surprised Pikachu.",
-    "author": "Surprised Pikachu"
-  },
-  {
-    "title": "Bad Luck Supplier Calls",
-    "desc": "Expect bad luck during supplier calls, like Bad Luck Brian.",
-    "author": "Bad Luck Brian"
-  },
-  {
-    "title": "Distracted Boyfriend Survey",
-    "desc": "Create employee satisfaction surveys with Distracted Boyfriend meme.",
-    "author": "Distracted Boyfriend"
-  },
-  {
-    "title": "Crying Cat Product Docs",
-    "desc": "Revise product documentation with tears of Crying Cat.",
-    "author": "Crying Cat"
-  },
-  {
-    "title": "Drake Company Retreat",
-    "desc": "Drake meme approves of company retreat plans.",
-    "author": "Drake"
-  },
-  {
-    "title": "Distracted Girlfriend Financial Reports",
-    "desc": "Analyze financial reports amidst distractions, like Distracted Girlfriend.",
-    "author": "Distracted Girlfriend"
-  },
-  {
-    "title": "Success Kid Weekly Newsletter",
-    "desc": "Send out weekly newsletters with Success Kid's triumphant pose.",
-    "author": "Success Kid"
-  },
-  {
-    "title": "Blinking White Guy Training Session",
-    "desc": "Lead training sessions with Blinking White Guy's confusion.",
-    "author": "Blinking White Guy"
-  }
-]
+{
+  "ToDos": [
+    {
+      "title": "Create Dank Memes",
+      "desc": "Generate hilarious memes to boost social media engagement.",
+      "author": "Pepe"
+    },
+    {
+      "title": "Stock Up on Doge Coins",
+      "desc": "Invest in Doge coins for potential moon landing.",
+      "author": "Doge"
+    },
+    {
+      "title": "Mock Clients with Grumpy Replies",
+      "desc": "Respond to clients with grumpy cat memes for fun.",
+      "author": "Grumpy Cat"
+    },
+    {
+      "title": "Imagination SpongeBob Slides",
+      "desc": "Craft presentation slides with Imagination SpongeBob theme.",
+      "author": "SpongeBob"
+    },
+    {
+      "title": "Kermit Reviews Contracts",
+      "desc": "Kermit the Frog scrutinizes contracts with a cup of tea.",
+      "author": "Kermit the Frog"
+    },
+    {
+      "title": "Arthur Fist Team Building",
+      "desc": "Use Arthur Fist meme to inspire team building activities.",
+      "author": "Arthur Fist"
+    },
+    {
+      "title": "Woman Yelling Market Trends",
+      "desc": "Create graphs with Woman Yelling at a Cat meme for market trends.",
+      "author": "Woman Yelling at a Cat"
+    },
+    {
+      "title": "Hide the Pain Website Bugs",
+      "desc": "Mask website bugs with Hide the Pain Harold's smiling face.",
+      "author": "Hide the Pain Harold"
+    },
+    {
+      "title": "Stonks Flight Tickets",
+      "desc": "Buy flight tickets for business trips with Stonks Guy's approval.",
+      "author": "Stonks Guy"
+    },
+    {
+      "title": "Baby Yoda Lunch Plans",
+      "desc": "Baby Yoda suggests adorable lunch plans for the team.",
+      "author": "Baby Yoda"
+    },
+    {
+      "title": "Mocking SpongeBob Social Media",
+      "desc": "Respond to social media comments with Mocking SpongeBob sarcasm.",
+      "author": "Mocking SpongeBob"
+    },
+    {
+      "title": "This is Fine Monthly Report",
+      "desc": "Write monthly reports with 'This is Fine' dog amidst chaos.",
+      "author": "This is Fine Dog"
+    },
+    {
+      "title": "Surprised Pikachu Webinar",
+      "desc": "Attend webinars with a look of surprised Pikachu.",
+      "author": "Surprised Pikachu"
+    },
+    {
+      "title": "Bad Luck Supplier Calls",
+      "desc": "Expect bad luck during supplier calls, like Bad Luck Brian.",
+      "author": "Bad Luck Brian"
+    },
+    {
+      "title": "Distracted Boyfriend Survey",
+      "desc": "Create employee satisfaction surveys with Distracted Boyfriend meme.",
+      "author": "Distracted Boyfriend"
+    },
+    {
+      "title": "Crying Cat Product Docs",
+      "desc": "Revise product documentation with tears of Crying Cat.",
+      "author": "Crying Cat"
+    },
+    {
+      "title": "Drake Company Retreat",
+      "desc": "Drake meme approves of company retreat plans.",
+      "author": "Drake"
+    },
+    {
+      "title": "Distracted Girlfriend Financial Reports",
+      "desc": "Analyze financial reports amidst distractions, like Distracted Girlfriend.",
+      "author": "Distracted Girlfriend"
+    },
+    {
+      "title": "Success Kid Weekly Newsletter",
+      "desc": "Send out weekly newsletters with Success Kid's triumphant pose.",
+      "author": "Success Kid"
+    },
+    {
+      "title": "Blinking White Guy Training Session",
+      "desc": "Lead training sessions with Blinking White Guy's confusion.",
+      "author": "Blinking White Guy"
+    }
+  ]
+}
