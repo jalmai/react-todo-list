@@ -34,7 +34,9 @@ export function NewItem(): JSX.Element {
           name="author"
           placeholder="Author"
         ></input>
-        <input type="submit" name="submit"></input>
+        <button type="submit" name="submit">
+          Add new Todo
+        </button>
       </form>
     </>
   );
