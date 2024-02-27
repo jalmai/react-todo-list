@@ -1,37 +1,19 @@
 import { useState } from "react";
+import { ToDos } from "../assets/items.json";
 interface item {
-  id: number;
-  text: string;
+  index: number;
+  title: string;
+  desc: string;
+  author: string;
   completed: boolean;
 }
 export const TodoList: React.FC = () => {
-  const [todos, setTodos] = useState<item[]>([
-    {
-      id: 1,
-      text: "hej hej hej",
-      completed: false,
-    },
-    {
-      id: 2,
-      text: "hej hej hej",
-      completed: false,
-    },
-    {
-      id: 3,
-      text: "hej hej hej",
-      completed: false,
-    },
-    {
-      id: 4,
-      text: "hej hej hej",
-      completed: false,
-    },
-  ]);
+  const [todos, setTodos] = useState<item[]>(ToDos);
   const [input, setInput] = useState<string>("");
   const handleToggle = (id: number) => {
     setTodos(
       todos.map((todo) => {
-        if (todo.id === id) {
+        if (todo.index === id) {
           return { ...todo, completed: !todo.completed };
         }
         return todo;
@@ -40,8 +22,10 @@ export const TodoList: React.FC = () => {
   };
   const handleClick = () => {
     const newTodo: item = {
-      id: 23,
-      text: input,
+      index: todos.length + 1,
+      title: input,
+      desc: "hej hej",
+      author: "fekalia",
       completed: false,
     };
     setTodos([...todos, newTodo]);
@@ -54,13 +38,13 @@ export const TodoList: React.FC = () => {
           <ul>
             {todos.map((todo) => (
               <li
-                key={todo.id}
-                onClick={() => handleToggle(todo.id)}
+                key={todo.index}
+                onClick={() => handleToggle(todo.index)}
                 style={{
                   textDecoration: todo.completed ? "line-through" : "none",
                 }}
               >
-                {todo.text}
+                {todo.title}
               </li>
             ))}
           </ul>
