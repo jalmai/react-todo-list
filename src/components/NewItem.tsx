@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export function NewItem(): JSX.Element {
+export function NewItem({ addTodo }: any): JSX.Element {
   const [form, setForm] = useState({
     title: "",
     desc: "",
@@ -13,9 +13,13 @@ export function NewItem(): JSX.Element {
     });
     console.log(form);
   };
+  const handleNewTodo = (e: React.ChangeEvent<HTMLInputElement>) => {
+    e.preventDefault();
+    addTodo(form);
+  };
   return (
     <>
-      <form className="newItem">
+      <form className="newItem" onSubmit={handleNewTodo}>
         <input
           type="text"
           onChange={handleChange}
