@@ -3,17 +3,17 @@ import { ToDos } from "../assets/items.json";
 export function ToDoItems(): JSX.Element {
   return (
     <>
-      <section className="toDoItems">
-        {ToDos.map(function (toDo) {
+      <section className="toDoList">
+        {ToDos.map(function (todo) {
           return (
-            <article className="toDoCard" key={toDo.index}>
+            <article className="toDoCard" key={todo.index}>
               <h2>
                 {" "}
                 <span className="material-symbols-outlined">check</span>
-                {toDo.title}
+                {todo.title}
               </h2>
-              <p>Written by: {toDo.author}</p>
-              <p>{toDo.desc}</p>
+              <p>Written by: {todo.author}</p>
+              <p>{todo.desc}</p>
 
               <span className="material-symbols-outlined">inventory_2</span>
               <span className="material-symbols-outlined">arrow_downward</span>
