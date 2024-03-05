@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { ToDos } from "../assets/items.json";
 import { TodoCard } from "./TodoCard";
+
 interface item {
   index: number;
   title: string;

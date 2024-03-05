@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export function NewItem(): JSX.Element {
+export function NewItem(props: any): JSX.Element {
   const [form, setForm] = useState({
     title: "",
     desc: "",
