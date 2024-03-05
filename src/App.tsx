@@ -1,11 +1,13 @@
-import { NewItem } from "./components/NewItem.tsx";
-import { ToDoItems } from "./components/ToDoItems.tsx";
+import { useContext } from "react";
+import { TodoContext } from "./context/TodoContextProvider.tsx";
+
 export function App() {
+  const { todoList } = useContext(TodoContext);
   return (
     <>
-      <h1>To Do List</h1>
-      <NewItem />
-      <ToDoItems />
+      {todoList.map((todo) => (
+        <div id={todo.id}>{todo.content}</div>
+      ))}
     </>
   );
 }
