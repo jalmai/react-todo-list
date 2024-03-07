@@ -1,12 +1,9 @@
 import { createContext, ReactElement, useState } from "react";
-
+import { ITodo } from "../interfaces";
 interface IContext {
   todoList: ITodo[];
 }
-interface ITodo {
-  id: string;
-  content: string;
-}
+
 interface ITodoContextProviderProps {
   children: ReactElement;
 }
