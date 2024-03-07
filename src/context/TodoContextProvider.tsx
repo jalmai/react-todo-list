@@ -1,8 +1,10 @@
 import { createContext, ReactElement, useState } from "react";
 import { ITodo } from "../interfaces";
+import { v4 as uuidv4 } from "uuid";
 interface IContext {
   deleteTodo: (todoId: string) => void;
   todoList: ITodo[];
+  createTodo: (newTodo: ITodo) => void;
 }
 
 interface ITodoContextProviderProps {
@@ -15,10 +17,15 @@ export function TodoContextProvider({
   children,
 }: ITodoContextProviderProps): ReactElement {
   const [todoList, setTodoList] = useState<ITodo[]>([
-    { id: "1", content: "make todolist" },
-    { id: "2", content: "improve todolist" },
-    { id: "3", content: "perfect todolist" },
+    { id: uuidv4(), content: "make todolist" },
+    { id: uuidv4(), content: "improve todolist" },
+    { id: uuidv4(), content: "perfect todolist" },
   ]);
+
+  const createTodo = (newTodo: ITodo) => {
+    const updatedTodolist = [newTodo, ...todoList];
+    setTodoList(updatedTodolist);
+  };
 
   const deleteTodo = (todoId: string): void => {
     const updatedArray = todoList.filter((todo) => todo.id !== todoId);
@@ -26,6 +33,7 @@ export function TodoContextProvider({
   };
 
   const values: IContext = {
+    createTodo,
     deleteTodo,
     todoList,
   };
