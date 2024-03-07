@@ -1,6 +1,7 @@
 import { createContext, ReactElement, useState } from "react";
 import { ITodo } from "../interfaces";
 interface IContext {
+  deleteTodo: (todoId: string) => void;
   todoList: ITodo[];
 }
 
@@ -19,7 +20,13 @@ export function TodoContextProvider({
     { id: "3", content: "perfect todolist" },
   ]);
 
+  const deleteTodo = (todoId: string): void => {
+    const updatedArray = todoList.filter((todo) => todo.id !== todoId);
+    setTodoList(updatedArray);
+  };
+
   const values: IContext = {
+    deleteTodo,
     todoList,
   };
   return <TodoContext.Provider value={values}>{children}</TodoContext.Provider>;
