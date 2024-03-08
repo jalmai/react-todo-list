@@ -6,9 +6,11 @@ export function TodoList(): ReactElement {
   const { todoList } = useContext(TodoContext);
   return (
     <>
-      {todoList.map((todo) => (
-        <Todo key={todo.id} todo={todo} />
-      ))}
+      <section className="toDoItems">
+        {todoList.map((todo) => (
+          <Todo key={todo.id} todo={todo} />
+        ))}
+      </section>
     </>
   );
 }

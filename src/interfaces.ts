@@ -1,4 +1,6 @@
 export interface ITodo {
   id: string;
-  content: string;
+  title: string;
+  desc: string;
+  author: string;
 }
